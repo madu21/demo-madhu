@@ -1,5 +1,5 @@
-pipeline {
-agent any {
+pipeline{
+agent none{
 stage ("input")
 {
 input 'hello'
