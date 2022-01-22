@@ -2,10 +2,10 @@ pipeline{
   agent any
   
 stages{
-  stage("input")
-  {
+  stage("input"){
+    steps {
       input 'hello'
-  }
+  } }
 
       }
       }
