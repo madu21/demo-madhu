@@ -1,0 +1,8 @@
+pipeline {
+agent any {
+stage ("input")
+{
+input 'hello'
+}
+}
+}
